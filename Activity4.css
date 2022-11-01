@@ -1,0 +1,29 @@
+body{
+    background-color: aqua;
+    }
+    #clock{ 
+        color: red;
+        justify-content: center;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 50px;
+        font-style: italic;
+        text-align: center;
+        animation-name: clock;
+        animation-duration: 6s;
+        /* margin-left:600px;
+        margin-right: 600px;
+        margin-top: 150px;
+         */
+    }
+h2{
+    text-align: center;
+    /* margin-top: 150px;
+    margin-left: 600px;
+    margin-right:600px;
+    margin-bottom: auto; */
+}
+@keyframes clock{
+    from{background-color: green;}
+    to{background-color: yellow;}
+
+}
